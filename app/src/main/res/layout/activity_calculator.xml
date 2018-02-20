@@ -12,7 +12,9 @@
         android:layout_height="wrap_content"
         android:layout_marginEnd="50dp"
         android:layout_marginStart="50dp"
-        android:hint="Insert Value 1" />
+        android:layout_marginTop="25dp"
+        android:gravity="center"
+        android:hint="Entrer valeur 1" />
 
     <EditText
         android:id="@+id/textFieldTwo"
@@ -22,7 +24,8 @@
         android:layout_marginEnd="50dp"
         android:layout_marginStart="50dp"
         android:layout_marginTop="25dp"
-        android:hint="Insert Value 2" />
+        android:gravity="center"
+        android:hint="Entrer valeur 2" />
 
     <Button
         android:id="@+id/plus"
@@ -66,10 +69,10 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@+id/minus"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="30dp"
         android:gravity="center"
         android:text="Resultat"
-        android:textSize="30sp" />
+        android:textSize="20sp" />
 
     <TextView
         android:layout_width="match_parent"
