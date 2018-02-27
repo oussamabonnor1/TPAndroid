@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/pommeMenu"
+        android:orderInCategory="1"
+        android:title="Nb pommes" />
+    <item
+        android:id="@+id/poireMenu"
+        android:orderInCategory="2"
+        android:title="Nb poires" />
+    <item
+        android:id="@+id/quitter"
+        android:orderInCategory="3"
+        android:title="quitter" />
+
+</menu>

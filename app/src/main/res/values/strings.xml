@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">TpAppIGMO</string>
+    <string name="action_settings">Search</string>
+    <string name="about">About</string>
 </resources>

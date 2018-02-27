@@ -142,10 +142,11 @@ public class CalculatorActivity extends AppCompatActivity implements View.OnClic
                     info = "Resultat\n" + s;
                     break;
                 case R.id.div:
-                    if (v2 != 0) {
+                    try {
                         s = v1 / v2;
                         info = "Resultat\n" + s;
-                    } else {
+                    } catch (ArithmeticException e) {
+                        e.printStackTrace();
                         Toast.makeText(getApplicationContext(), "Division par zero", Toast.LENGTH_SHORT).show();
                     }
                     break;
