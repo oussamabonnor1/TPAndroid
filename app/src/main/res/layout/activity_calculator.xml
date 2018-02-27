@@ -28,22 +28,20 @@
         android:hint="Entrer valeur 2" />
 
     <Button
-        android:id="@+id/plus"
+        android:id="@+id/add"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/textFieldTwo"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="40dp"
-        android:onClick="Calculate"
         android:text="+" />
 
     <Button
         android:id="@+id/div"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/plus"
         android:layout_centerHorizontal="true"
-        android:onClick="Calculate"
+        android:layout_below="@+id/add"
         android:text="/" />
 
     <Button
@@ -52,7 +50,6 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/div"
         android:layout_centerHorizontal="true"
-        android:onClick="Calculate"
         android:text="*" />
 
     <Button
@@ -61,7 +58,6 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/mult"
         android:layout_centerHorizontal="true"
-        android:onClick="Calculate"
         android:text="-" />
 
     <TextView
