@@ -6,7 +6,10 @@ import android.view.KeyEvent;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.AdapterView;
+import android.widget.ArrayAdapter;
 import android.widget.Button;
+import android.widget.ListView;
 import android.widget.RadioButton;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -14,6 +17,7 @@ import android.widget.Toast;
 public class CompterActivity extends AppCompatActivity {
     RadioButton pommeRadio, poireRadio;
     TextView pommeText, poireText;
+    ListView listView;
     int pomme, poire;
 
     @Override
@@ -26,6 +30,30 @@ public class CompterActivity extends AppCompatActivity {
 
         pommeText = (TextView) findViewById(R.id.pommes);
         poireText = (TextView) findViewById(R.id.poires);
+
+        listView = (ListView) findViewById(R.id.listView);
+        String[] s = {"nb Pommes", "nb Poire", "Quitter"};
+        ArrayAdapter<String> adapter = new ArrayAdapter<>(this, android.R.layout.simple_list_item_1, s);
+        listView.setAdapter(adapter);
+
+        listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
+                switch (i) {
+                    case 0:
+                        Toast.makeText(getApplicationContext(), "Nobre de pommes: " + pomme, Toast.LENGTH_SHORT).show();
+                        return;
+                    case 1:
+                        Toast.makeText(getApplicationContext(), "Nobre de poires: " + poire, Toast.LENGTH_SHORT).show();
+                        return;
+                    case 2:
+                        onStop();
+                        return;
+                    default:
+                        return;
+                }
+            }
+        });
 
         pomme = poire = 0;
     }
