@@ -1,5 +1,6 @@
 package com.findtheletter.jetlightstudio.tpappigmo;
 
+import android.provider.Settings;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.KeyEvent;
@@ -47,7 +48,7 @@ public class CompterActivity extends AppCompatActivity {
                         Toast.makeText(getApplicationContext(), "Nobre de poires: " + poire, Toast.LENGTH_SHORT).show();
                         return;
                     case 2:
-                        onStop();
+                        System.exit(1);
                         return;
                     default:
                         return;
