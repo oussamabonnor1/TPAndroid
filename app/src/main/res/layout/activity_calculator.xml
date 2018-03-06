@@ -28,43 +28,17 @@
         android:hint="Entrer valeur 2" />
 
     <Button
-        android:id="@+id/add"
+        android:id="@+id/btnCompter"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/textFieldTwo"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="40dp"
-        android:text="+" />
-
-    <Button
-        android:id="@+id/div"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
-        android:layout_below="@+id/add"
-        android:text="/" />
-
-    <Button
-        android:id="@+id/mult"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/div"
-        android:layout_centerHorizontal="true"
-        android:text="*" />
-
-    <Button
-        android:id="@+id/minus"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/mult"
-        android:layout_centerHorizontal="true"
-        android:text="-" />
-
+        android:layout_centerInParent="true"
+        android:text="@string/compter"
+        android:onClick="compter"/>
     <TextView
         android:id="@+id/resultat"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/minus"
+        android:layout_below="@id/btnCompter"
         android:layout_marginTop="30dp"
         android:gravity="center"
         android:text="Resultat"

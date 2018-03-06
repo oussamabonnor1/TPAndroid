@@ -48,7 +48,7 @@ public class CompterActivity extends AppCompatActivity {
                         Toast.makeText(getApplicationContext(), "Nobre de poires: " + poire, Toast.LENGTH_SHORT).show();
                         return;
                     case 2:
-                        System.exit(1);
+                        finish();
                         return;
                     default:
                         return;

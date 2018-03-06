@@ -10,18 +10,20 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".MainActivity" />
-        <activity android:name=".CalculatorActivity" />
-        <activity android:name=".ActionBarActivity" />
-        <activity android:name=".CompterActivity" />
-
-
-        <activity android:name=".Compteur">
+        <activity android:name=".CalculatorActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".ActionBarActivity" />
+        <activity android:name=".CompterActivity" />
+        <activity android:name=".Compteur" />
+        <activity android:name=".Calculator2Activity" />
+        <activity android:name=".MoyenneActivity" />
+        <activity android:name=".ReussiteActivity" />
+        <activity android:name=".RecaleActivity"></activity>
     </application>
 
 </manifest>
