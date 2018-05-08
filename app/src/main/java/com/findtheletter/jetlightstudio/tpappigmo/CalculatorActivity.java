@@ -23,7 +23,7 @@ public class CalculatorActivity extends AppCompatActivity {
 
     }
 
-
+    {/*
     public void Calculate(View view) {
 
         try {
@@ -112,6 +112,7 @@ public class CalculatorActivity extends AppCompatActivity {
         }
         resultat.setText(info);
     }
+    */}
 
     public void compter(View view) {
         Intent intent = new Intent(CalculatorActivity.this, Calculator2Activity.class);

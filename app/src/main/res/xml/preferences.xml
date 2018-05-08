@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+<PreferenceCategory android:title="Design">
+    <CheckBoxPreference
+        android:key="isDark"
+        android:title="Dark Mode" />
+    <ListPreference
+        android:key="listFont"
+        android:dialogTitle="Choose fonts size"
+        android:title="Fonts Size"
+        android:entries="@array/entries"
+        android:entryValues="@array/entriesValues"/>
+</PreferenceCategory>
+    <PreferenceCategory android:title="Info">
+        <EditTextPreference
+            android:key="EditPseudo"
+            android:title="Pseudo"
+            android:dialogTitle="Choose pseud"
+            android:positiveButtonText="Save"
+            android:negativeButtonText="Cancel"
+            android:summary="Pseudo is displayed in text" />
+
+    </PreferenceCategory>
+</PreferenceScreen>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="entries">
+        <item>Small</item>
+        <item>medium</item>
+        <item>big</item>
+    </array>
+    <array name="entriesValues">
+        <item>14</item>
+        <item>18</item>
+        <item>24</item>
+    </array>
+
+</resources>
