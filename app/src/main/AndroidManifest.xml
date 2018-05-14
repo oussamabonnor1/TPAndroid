@@ -20,16 +20,14 @@
         <activity android:name=".RecaleActivity" />
         <activity android:name=".CustomThemeActivity" />
         <activity android:name=".DetailPortraitActivity" />
-        <activity android:name=".Tp5Exo2ListViewActivity" />
         <activity android:name=".Tp5Exo1FerenhiteToCelsusActivity" />
         <activity android:name=".Tp5Exo1Part2Activity" />
-        <activity android:name=".Tp5Exo3Activity" />
-
         <activity android:name=".SettingsActivity" />
-        <activity android:name=".ApplySettingsActivity">
+        <activity android:name=".ApplySettingsActivity"/>
+        <activity android:name=".Tp5Exo2ListViewActivity"/>
+        <activity android:name=".Tp5Exo3Activity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>

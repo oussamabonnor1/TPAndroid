@@ -14,8 +14,8 @@ import android.widget.Toast;
 public class Tp5Exo2ListViewActivity extends AppCompatActivity {
 
     ListView listView;
-    String[] names = {"ouss", "amine", "smahi", "moh", "baknadir"};
-    String[] jobs = {"Avocat", "Medecin", "programmer", "designetr", "gamer"};
+    String[] names = {"fatima", "amine", "Menezes", "moh", "baknadir"};
+    String[] jobs = {"Developpeuse django", "Medecin", "programmer", "designetr", "gamer"};
     CustomArrayAdapterTp5Exo2 adapter;
 
     @Override

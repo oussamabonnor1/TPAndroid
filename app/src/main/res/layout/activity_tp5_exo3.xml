@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:weightSum="1"
+    tools:context="com.jetlightstudio.tp.Tp5Exo3Activity">
+
+    <fragment
+        android:id="@+id/listFragment"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight=".4"
+        class="com.jetlightstudio.tp.ListFragment"
+        >
+    </fragment>
+
+    <fragment
+        android:id="@+id/detailFragment"
+        class="com.jetlightstudio.tp.DetailFragement"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight=".6"
+        tools:layout="@layout/detail_layout_fragment">
+    </fragment>
+
+</LinearLayout>

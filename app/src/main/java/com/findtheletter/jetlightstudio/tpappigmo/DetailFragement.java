@@ -11,7 +11,7 @@ import android.widget.TextView;
 import java.util.zip.Inflater;
 
 /**
- * Created by oussama on 17/04/2018.
+ * Created by desktop on 17/04/2018.
  */
 
 public class DetailFragement extends android.app.Fragment {
